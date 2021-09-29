@@ -29,7 +29,7 @@ class AirconMode(enum.Enum):
 
 
 class AirconStateData(object):
-	def __init__(self, onoff=True, mode=AirconMode.Cool, targetTemp=250, currentTemp=25, fanSpeed=1):
+	def __init__(self, onoff=True, mode=AirconMode.Cool, targetTemp=250, currentTemp=22, fanSpeed=3):
 		self.onoff = onoff
 		self.mode=mode
 		self.targetTemp = targetTemp
